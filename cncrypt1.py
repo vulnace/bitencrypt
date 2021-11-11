@@ -69,7 +69,7 @@ enc = Encryptor(key)
 clear = lambda: os.system('cls')
 
 if os.path.isfile('data.txt.enc'):
-  while True:
+#  while True:
         password = str(input("Enter password: "))
         enc.decrypt_file("data.txt.enc")
         p = ''
